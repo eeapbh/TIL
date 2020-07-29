@@ -83,6 +83,7 @@ $ git remote add origin {github repo url}
 
 - 원격 저장소(remote)를 등록할건데, `origin` 라는 이름으로 원격 저장소를 등록하겠다라는 의미입니다.
 - 원격 저장소 등록 현황을 확인하려면 아래의 명령어를 참고하세요.
+- 깃프로그램아 원격 저장소기능 추가기능 별명은 origin 실제주소는 ~~~야
 
 ```sh
 $ git remote -V
@@ -94,3 +95,55 @@ $ git remote -V
 $ git remote rm { 삭제하고자 하는 remote name }
 ```
 
+
+
+
+
+```sh
+$ git push origin master
+```
+
+- master는 우리가 올린 commit들의 기록들
+
+```sh
+$ git pull origin master
+```
+
+- 를통해 집과 강의장에서 최신화를 하여 순서가 헤깔리지 않게한다.
+
+
+
+
+
+# 0724 새로운 교수님
+
+## Git
+
+- working dir
+  - 실제 작업공간
+- staging area
+  - add 명령어를 입력했을 때 임시로 저장이 되는 공간
+- local repo(.git)
+  - commit 명령어를 입력했을때 버전이 기록되는 공간
+
+## 명령어
+
+- `git init` 
+  - `.git` 폴더를 만들어 주는 명령어
+  - 최초 한번만 실행한다.
+- `git add` 
+  - 뒤에 staging area로 올리고 싶은 파일을 적어준다.
+  - `.` 을 입력하면 전체 파일이 추가된다.
+- `git commit` 
+  - 버전을 생성
+  - `-m` 옵션을 일반적으로 추가해준다.
+
+
+
+- `git remote add` 
+  - 원격 저장소의 주소를 등록
+  - origin 이라는 이름을 기본값으로 사용.
+  - `최초 한번` 만 실행한다.
+- git push
+  - 등록된 원격 저장소로 커밋 기록을 업로드
+  - 
