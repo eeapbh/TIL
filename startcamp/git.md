@@ -146,4 +146,29 @@ $ git pull origin master
   - `최초 한번` 만 실행한다.
 - git push
   - 등록된 원격 저장소로 커밋 기록을 업로드
+- git diff
+  - 머가 바뀐지 나옴
+  - 삭제가 된줄은 빨간색 추가가된줄은 초록색
+- git commit --amend
+  - 오타같은거 했을때 마지막 commit수정
+
+### 0731
+
+- 버전관리
+  - add
+  - commit
+  - push
   - 
+- 상태확인
+  - status
+  - log
+  - diff
+- 되돌리기
+  - restore
+  - --amend
+
+### gitignore.io
+
+- git은결국 우리 파일, 버전을 관리하고 확인하는 것
+- 이거는 git으로 관리안해도 될꺼같다 에 사용
+- 
