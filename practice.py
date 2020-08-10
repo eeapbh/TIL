@@ -1,8 +1,5 @@
-a = 1
-def f1():
-    a = 5
-    return f2
-def f2():
-    print(a)
-print(f1())
-print(a)
+number = [1, 2, 3, 4]
+result = {}
+for i enumerate in (len(number)):
+    result[number[i]] = i
+print(result)
