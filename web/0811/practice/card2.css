@@ -1,0 +1,88 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+h4 {
+  font-size: 20px;
+  font-weight: bold;
+  font-family: Arial;
+}
+
+p{
+  font-family: ARial;
+}
+
+.container {
+  width: 1200px;
+  margin: 200px auto;
+}
+
+.card {
+  width: 700px;
+}
+
+.card-nav {
+  background-color: green;
+  text-align: center;
+  padding: 12px;
+}
+
+.card-header {
+  margin: 18px;
+  
+}
+
+.card-img {
+  height: 330px;
+  width: 100%;
+  display: block;
+}
+
+.card-img-description {
+  background-color: green;
+  color: white;
+  text-align: center;
+  height: 70px;
+}
+
+.card-body {
+  margin: 36px 18px 18px;
+
+}
+
+/* .card-body-title *{
+  display: inline;
+}
+
+.card-body-title {
+  position: relative;
+}
+
+.card-body-title p {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+} */
+.card-body-title {
+  display: flex;
+  justify-content: space-between;
+  /* 높이맞추는거 */
+  align-items: center; 
+}
+
+.card-body-content {
+  background-color: beige;
+  padding: 10px;
+  margin-top: 18px;
+}
+
+.card-footer {
+  background-color: green;
+  text-align: right;
+  color: white;
+  padding: 18px;
+}
+
+
