@@ -1,13 +1,10 @@
 import sys
 sys.stdin = open('input.txt', 'r')
-
-
-
 n, m = map(int, input().split())
-arr = [a for a in range(1, n+1)]
+arr = list(map(int, input().split()))
+arr.sort()
 sel = [0]*m
 visited = [0]*n
-
 def perm(idx):
     if idx == m:
         for s in sel:
