@@ -24,3 +24,4 @@ perm(0)
 b = sorted(total)
 for t in b:
     print(*t)
+

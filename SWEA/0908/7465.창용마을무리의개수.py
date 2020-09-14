@@ -2,6 +2,7 @@ import sys
 sys.stdin = open('input.txt', 'r')
 
 def DFS(x):
+    visited[i] = 1
     for y in range(1, n+1):
         if arr[x][y] == 1 and visited[y] == 0:
             visited[y] = 1
@@ -20,7 +21,7 @@ for tc in range(1, t+1):
     cnt = 0
     for i in range(1, n+1):
         if not visited[i]:
-            visited[i] = 1
+
             DFS(i)
             cnt += 1
 

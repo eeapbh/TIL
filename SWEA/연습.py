@@ -1,22 +1,40 @@
-arr = [1,2,3]
-N = 3
+def solution(new_id):
+    answer = ''
+    for i in new_id:
+        if 65 <= ord(i) <= 90:
+            answer += chr(ord(i) + 32)
+        if i in '-_.':
+            if i == '.':
+                if len(answer) == 0:
+                    continue
+                elif answer[-1] == '.':
+                    continue
+                else:
+                    answer += i
+            else:
+                answer += i
+        if 97 <= ord(i) <= 122:
+            answer += i
+        if i.isdigit() == 1:
+            answer += i
+    if answer == '':
+        answer = 'a'
+    while answer[-1] == '.':
+        answer = answer[:len(answer) - 1]
 
-sel = [0] * N
-visited = [0] * N
+
+    if len(answer) >= 16:
+        answer = answer[:15]
+        while answer[-1] == '.':
+            answer = answer[:len(answer) - 1]
+
+    if len(answer) <=2:
+        last = answer[-1]
+        while len(answer)<3:
+            answer += last
+
+    return answer
 
 
-def perm(idx):
-    if idx == N:
-        print(sel)
-        return
-
-    for i in range(N):
-        # if visited[i]:
-        #     continue
-        if not visited[i]:
-            sel[idx] = arr[i]
-            visited[i] = 1
-            perm(idx+1)
-            visited[i] = 0
-
-perm(0)
+a = '=.='
+print(solution(a))
