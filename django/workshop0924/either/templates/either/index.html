@@ -1,0 +1,8 @@
+{% extends 'base.html' %}
+{% block content %}
+<a href="{% url 'either:create_question' %}">질문만들기</a>
+<hr>
+{% for question in questions %}
+<a href="{% url 'either:detail' question.pk %}">{{question.title}}</a>
+{% endfor %}
+{% endblock content %}

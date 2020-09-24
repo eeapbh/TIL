@@ -1,0 +1,22 @@
+{% extends 'base.html' %}
+{% block content %}
+<h1>{{question.title}}</h1>
+<h3>{{total_count}}</h3>
+<h2>RED: {{question.pick_a}}</h2>
+<h3>{{pick_a_count}}</h3>
+<h2>BLUE: {{question.pick_b}}</h2>
+<hr>
+<form action="{% url 'either:create_comment' question.pk %}" method="post">
+  {% csrf_token %}
+  {{ form.as_p }}
+  <button>투표하기!</button>
+</form>
+<hr>
+{% for comment in comments %}
+{% if comment.pick %}
+<h3>{{ question.pick_a }}</h3>
+{% else %}
+<h3>{{ question.pick_b }}</h3>
+{% endif %}
+{% endfor %}
+{% endblock content %}
