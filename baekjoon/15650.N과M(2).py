@@ -8,7 +8,7 @@ sel = [0]*n
 
 def powerset(idx):
     if idx == n:
-        if  sel.count(1) == m:
+        if sel.count(1) == m:
             for s in range(n):
                 if sel[s]:
                     print(arr[s], end=' ')
@@ -21,3 +21,4 @@ def powerset(idx):
     powerset(idx+1)
 
 powerset(0)
+
