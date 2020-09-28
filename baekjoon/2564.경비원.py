@@ -36,11 +36,13 @@ for i in range(n):
 
     # 같은 선에있으면
     if x == Sx:
-        total += abs(Sy-y)
-        continue
+        if Sewsn == ewsn:
+            total += abs(Sy-y)
+            continue
     if y == Sy:
-        total += abs(Sx-x)
-        continue
+        if Sewsn == ewsn:
+            total += abs(Sx-x)
+            continue
 
     # 다른 선에 있는데 동근이가 북남에 있을때
     if Sewsn <=2:
