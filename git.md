@@ -172,3 +172,24 @@ $ git pull origin master
 - git은결국 우리 파일, 버전을 관리하고 확인하는 것
 - 이거는 git으로 관리안해도 될꺼같다 에 사용
 - 
+
+### 0928
+
+1. venv/ add commit
+
+-> .git 폴더 기록
+
+컴퓨터에서는 삭제안하고 
+
+git한테는 삭제한척
+
+git rm --cached <해당파일>
+
+git commit
+
+-> git 한테는 venv는 없는 파일(.gitignore에도 포함되어 있고, 지금 내가 갖고있는 애도 삭제했으니까)
+
+venv 무슨 업데이트? -> git X .gitignore 포함되어있으니까
+
+2. 위에꺼 시르면 git 폴더를 삭제한다음에 다시 gitinit하면된다.
+
