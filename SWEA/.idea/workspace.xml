@@ -1,50 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="dbf64a86-72d6-4c0b-94fc-bafc1a91ff0d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/0911/1023수업시간연습문제1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1026수업시간연습문제2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1026수업시간연습문제2다시.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/10888.음식배달.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1240.단순2진암호코드.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1961.숫자배열회전.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/4013.특이한자석.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/브레즌햄 알고리즘.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../baekjoon/10163.색종이.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../baekjoon/10844.쉬운계단수.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../baekjoon/11057.오르막수.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../baekjoon/1167.트리의지름.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../baekjoon/11725.트리의부모찾기.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../baekjoon/11726.2xn타일링.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../baekjoon/11727.2xn타일링2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../baekjoon/13300.방배정.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../baekjoon/1463.1로만들기.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../baekjoon/14696.딱지놀이.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../baekjoon/16926.배열돌리기1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../baekjoon/1967.트리의지름.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../baekjoon/1991.트리순회.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../baekjoon/2116.주사위쌓기.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../baekjoon/2193.이친수.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../baekjoon/2263.트리의순회.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../baekjoon/2304.창고다각형.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../baekjoon/2559.수열.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../baekjoon/2628.종이자르기.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../baekjoon/5639.이진검색트리.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../baekjoon/9095.1,2,3더하기.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../baekjoon/9465.스티커.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1242.암호코드스캔.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1242.암호코드스캔2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1242.암호코드스캔3.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/4366.정식이의은행업무.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/5185.이진수.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/5186.이진수2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/SWEA.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/SWEA.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/input.txt" beforeDir="false" afterPath="$PROJECT_DIR$/input.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/연습.py" beforeDir="false" afterPath="$PROJECT_DIR$/연습.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/포켓볼연습.py" beforeDir="false" afterPath="$PROJECT_DIR$/포켓볼연습.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../baekjoon/1012.유기농배추.py" beforeDir="false" afterPath="$PROJECT_DIR$/../baekjoon/1012.유기농배추.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../baekjoon/1244.스위치켜고끄기.py" beforeDir="false" afterPath="$PROJECT_DIR$/../baekjoon/1244.스위치켜고끄기.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../baekjoon/2178.미로탐색.py" beforeDir="false" afterPath="$PROJECT_DIR$/../baekjoon/2178.미로탐색.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../baekjoon/2635.수이어가기.py" beforeDir="false" afterPath="$PROJECT_DIR$/../baekjoon/2635.수이어가기.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../baekjoon/7569.토마토.py" beforeDir="false" afterPath="$PROJECT_DIR$/../baekjoon/7569.토마토.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../baekjoon/7576.토마토.py" beforeDir="false" afterPath="$PROJECT_DIR$/../baekjoon/7576.토마토.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../baekjoon/input.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../baekjoon/input.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../baekjoon/연습장.py" beforeDir="false" afterPath="$PROJECT_DIR$/../baekjoon/연습장.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../baekjoon/연습장장.py" beforeDir="false" afterPath="$PROJECT_DIR$/../baekjoon/연습장장.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,7 +62,7 @@
       <recent name="C:\Users\user\Desktop\TIL\SWEA\0911" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.1026수업시간연습문제2다시">
+  <component name="RunManager" selected="Python.1242.암호코드스캔3">
     <configuration name="연습" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="SWEA" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -98,27 +84,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="1026수업시간연습문제2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="SWEA" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/1026수업시간연습문제2.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="1026수업시간연습문제2다시" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="SWEA" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -161,7 +126,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="1961.숫자배열회전" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="1026수업시간연습문제2다시" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="SWEA" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -173,7 +138,70 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/1961.숫자배열회전.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/1026수업시간연습문제2다시.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="1242.암호코드스캔2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="SWEA" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="C:\Users\Aclass\Desktop\TIL\SWEA\1242.암호코드스캔2.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="1242.암호코드스캔3" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="SWEA" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/1242.암호코드스캔3.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="4366.정식이의은행업무" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="SWEA" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/4366.정식이의은행업무.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -247,10 +275,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.1026수업시간연습문제2다시" />
-        <item itemvalue="Python.1026수업시간연습문제2" />
+        <item itemvalue="Python.1242.암호코드스캔3" />
+        <item itemvalue="Python.4366.정식이의은행업무" />
         <item itemvalue="Python.연습" />
-        <item itemvalue="Python.1961.숫자배열회전" />
+        <item itemvalue="Python.1242.암호코드스캔2" />
+        <item itemvalue="Python.1026수업시간연습문제2다시" />
       </list>
     </recent_temporary>
   </component>
@@ -265,43 +294,54 @@
     </task>
     <servers />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="WindowStateProjectService">
-    <state width="1899" height="262" key="GridCell.Tab.0.bottom" timestamp="1603698770162">
+    <state width="1899" height="172" key="GridCell.Tab.0.bottom" timestamp="1603789016209">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1515" height="217" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1599408515361" />
-    <state width="1899" height="262" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1603698770162" />
-    <state width="1899" height="262" key="GridCell.Tab.0.center" timestamp="1603698770162">
+    <state width="1899" height="172" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1603789016209" />
+    <state width="1899" height="172" key="GridCell.Tab.0.center" timestamp="1603789016209">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1515" height="217" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1599408515360" />
-    <state width="1899" height="262" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1603698770162" />
-    <state width="1899" height="262" key="GridCell.Tab.0.left" timestamp="1603698770162">
+    <state width="1899" height="172" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1603789016209" />
+    <state width="1899" height="172" key="GridCell.Tab.0.left" timestamp="1603789016209">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1515" height="217" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1599408515360" />
-    <state width="1899" height="262" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1603698770162" />
-    <state width="1899" height="262" key="GridCell.Tab.0.right" timestamp="1603698770162">
+    <state width="1899" height="172" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1603789016209" />
+    <state width="1899" height="172" key="GridCell.Tab.0.right" timestamp="1603789016209">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1515" height="217" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1599408515361" />
-    <state width="1899" height="262" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1603698770162" />
-    <state width="1899" height="194" key="GridCell.Tab.1.bottom" timestamp="1603686124624">
+    <state width="1899" height="172" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1603789016209" />
+    <state width="1899" height="172" key="GridCell.Tab.1.bottom" timestamp="1603789016209">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="194" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1603686124624" />
-    <state width="1899" height="194" key="GridCell.Tab.1.center" timestamp="1603686124624">
+    <state width="1899" height="172" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1603789016209" />
+    <state width="1899" height="172" key="GridCell.Tab.1.center" timestamp="1603789016209">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="194" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1603686124624" />
-    <state width="1899" height="194" key="GridCell.Tab.1.left" timestamp="1603686124624">
+    <state width="1899" height="172" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1603789016209" />
+    <state width="1899" height="172" key="GridCell.Tab.1.left" timestamp="1603789016209">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="194" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1603686124624" />
-    <state width="1899" height="194" key="GridCell.Tab.1.right" timestamp="1603686124624">
+    <state width="1899" height="172" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1603789016209" />
+    <state width="1899" height="172" key="GridCell.Tab.1.right" timestamp="1603789016209">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="194" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1603686124624" />
+    <state width="1899" height="172" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1603789016209" />
     <state x="1148" y="219" width="584" height="602" key="find.popup" timestamp="1603191809576">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -358,6 +398,26 @@
           <url>file://$PROJECT_DIR$/1961.숫자배열회전.py</url>
           <line>13</line>
           <option name="timeStamp" value="26" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/1242.암호코드스캔.py</url>
+          <line>101</line>
+          <option name="timeStamp" value="35" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/1242.암호코드스캔2.py</url>
+          <line>91</line>
+          <option name="timeStamp" value="39" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/4366.정식이의은행업무.py</url>
+          <line>56</line>
+          <option name="timeStamp" value="41" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/1242.암호코드스캔3.py</url>
+          <line>79</line>
+          <option name="timeStamp" value="43" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
