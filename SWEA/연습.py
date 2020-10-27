@@ -1,40 +1,28 @@
-def solution(new_id):
-    answer = ''
-    for i in new_id:
-        if 65 <= ord(i) <= 90:
-            answer += chr(ord(i) + 32)
-        if i in '-_.':
-            if i == '.':
-                if len(answer) == 0:
-                    continue
-                elif answer[-1] == '.':
-                    continue
-                else:
-                    answer += i
-            else:
-                answer += i
-        if 97 <= ord(i) <= 122:
-            answer += i
-        if i.isdigit() == 1:
-            answer += i
-    if answer == '':
-        answer = 'a'
-    while answer[-1] == '.':
-        answer = answer[:len(answer) - 1]
+import copy
+n = 6
+arr = [[1, 2, 3, 4, 5, 6], [7, 8, 9, 10, 11, 12], [13, 14, 15, 16, 17, 18], [19, 20, 21, 22, 23, 24], [25, 26, 27, 28, 29, 30], [31, 32, 33, 34, 35, 36]]
+def spin90(arr):
+    Narr = [[0]*m for _ in range(m)]
+    for i in range(m):
+        for j in range(m):
+            Narr[i][j] = arr[n-j-1][i]
+    return Narr
+
+for i in range(n//2):
+    m = n-2*i
+    tmp = []
+    for j in range(i, n-i):
+        tmp.append(arr[j][i:n-i])
+    print(f'{i}번째')
+    print(tmp)
+    if i & 2== 0:
+        arr2 = spin90(tmp)
+    else:
+        arr2 = spin90(spin90(spin90(tmp)))
 
 
-    if len(answer) >= 16:
-        answer = answer[:15]
-        while answer[-1] == '.':
-            answer = answer[:len(answer) - 1]
+    for a in range(i, n-i):
+        for b in range(len(arr2)):
+            arr[a][i:n-i] = arr2[b]
+    print(arr)
 
-    if len(answer) <=2:
-        last = answer[-1]
-        while len(answer)<3:
-            answer += last
-
-    return answer
-
-
-a = '=.='
-print(solution(a))

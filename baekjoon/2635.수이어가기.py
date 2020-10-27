@@ -31,7 +31,7 @@ sys.stdin = open('input.txt', 'r')
 # print(*result[idx])
 #
 # N = int(input())
-
+N = int(input())
 ans = []
 maxlen = 0
 for i in range(N,-1,-1):
