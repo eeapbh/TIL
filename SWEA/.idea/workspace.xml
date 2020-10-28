@@ -20,15 +20,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dbf64a86-72d6-4c0b-94fc-bafc1a91ff0d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/1242.암호코드스캔.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1242.암호코드스캔2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1242.암호코드스캔3.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/4366.정식이의은행업무.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/5185.이진수.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/5186.이진수2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1028수업시간연습문제1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1028수업시간연습문제2baby-gin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1028수업시간연습문제3(부분집합).py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1028수업시간연습문제3(비트).py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1242.암호코드스캔4.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/5203.베이비진게임.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SWEA_5203_베이비진게임_박봉현.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/SWEA.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/SWEA.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1242.암호코드스캔3.py" beforeDir="false" afterPath="$PROJECT_DIR$/1242.암호코드스캔3.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/input.txt" beforeDir="false" afterPath="$PROJECT_DIR$/input.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/연습.py" beforeDir="false" afterPath="$PROJECT_DIR$/연습.py" afterDir="false" />
     </list>
@@ -62,7 +64,7 @@
       <recent name="C:\Users\user\Desktop\TIL\SWEA\0911" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.1242.암호코드스캔3">
+  <component name="RunManager" selected="Python.SWEA_5203_베이비진게임_박봉현">
     <configuration name="연습" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="SWEA" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -126,7 +128,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="1026수업시간연습문제2다시" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="1028수업시간연습문제2baby-gin" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="SWEA" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -138,7 +140,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/1026수업시간연습문제2다시.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/1028수업시간연습문제2baby-gin.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -147,7 +149,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="1242.암호코드스캔2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="1028수업시간연습문제3(비트)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="SWEA" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -159,7 +161,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="C:\Users\Aclass\Desktop\TIL\SWEA\1242.암호코드스캔2.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/1028수업시간연습문제3(비트).py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -168,7 +170,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="1242.암호코드스캔3" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="5203.베이비진게임" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="SWEA" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -180,7 +182,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/1242.암호코드스캔3.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/5203.베이비진게임.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -189,7 +191,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="4366.정식이의은행업무" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="SWEA_5203_베이비진게임_박봉현" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="SWEA" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -201,7 +203,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/4366.정식이의은행업무.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\user\Desktop\TIL\SWEA\SWEA_5203_베이비진게임_박봉현.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -275,11 +277,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.1242.암호코드스캔3" />
-        <item itemvalue="Python.4366.정식이의은행업무" />
+        <item itemvalue="Python.SWEA_5203_베이비진게임_박봉현" />
         <item itemvalue="Python.연습" />
-        <item itemvalue="Python.1242.암호코드스캔2" />
-        <item itemvalue="Python.1026수업시간연습문제2다시" />
+        <item itemvalue="Python.5203.베이비진게임" />
+        <item itemvalue="Python.1028수업시간연습문제2baby-gin" />
+        <item itemvalue="Python.1028수업시간연습문제3(비트)" />
       </list>
     </recent_temporary>
   </component>
@@ -304,52 +306,53 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1899" height="172" key="GridCell.Tab.0.bottom" timestamp="1603789016209">
+    <state width="938" height="246" key="GridCell.Tab.0.bottom" timestamp="1603905304239">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1515" height="217" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1599408515361" />
-    <state width="1899" height="172" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1603789016209" />
-    <state width="1899" height="172" key="GridCell.Tab.0.center" timestamp="1603789016209">
+    <state width="938" height="246" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1603905304239" />
+    <state width="938" height="246" key="GridCell.Tab.0.center" timestamp="1603905304239">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1515" height="217" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1599408515360" />
-    <state width="1899" height="172" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1603789016209" />
-    <state width="1899" height="172" key="GridCell.Tab.0.left" timestamp="1603789016209">
+    <state width="938" height="246" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1603905304239" />
+    <state width="938" height="246" key="GridCell.Tab.0.left" timestamp="1603905304239">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1515" height="217" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1599408515360" />
-    <state width="1899" height="172" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1603789016209" />
-    <state width="1899" height="172" key="GridCell.Tab.0.right" timestamp="1603789016209">
+    <state width="938" height="246" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1603905304239" />
+    <state width="938" height="246" key="GridCell.Tab.0.right" timestamp="1603905304239">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1515" height="217" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1599408515361" />
-    <state width="1899" height="172" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1603789016209" />
-    <state width="1899" height="172" key="GridCell.Tab.1.bottom" timestamp="1603789016209">
+    <state width="938" height="246" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1603905304239" />
+    <state width="1899" height="182" key="GridCell.Tab.1.bottom" timestamp="1603905304234">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="172" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1603789016209" />
-    <state width="1899" height="172" key="GridCell.Tab.1.center" timestamp="1603789016209">
+    <state width="1899" height="182" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1603905304234" />
+    <state width="1899" height="182" key="GridCell.Tab.1.center" timestamp="1603905304234">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="172" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1603789016209" />
-    <state width="1899" height="172" key="GridCell.Tab.1.left" timestamp="1603789016209">
+    <state width="1899" height="182" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1603905304234" />
+    <state width="1899" height="182" key="GridCell.Tab.1.left" timestamp="1603905304234">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="172" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1603789016209" />
-    <state width="1899" height="172" key="GridCell.Tab.1.right" timestamp="1603789016209">
+    <state width="1899" height="182" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1603905304234" />
+    <state width="1899" height="182" key="GridCell.Tab.1.right" timestamp="1603905304234">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="172" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1603789016209" />
+    <state width="1899" height="182" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1603905304234" />
     <state x="1148" y="219" width="584" height="602" key="find.popup" timestamp="1603191809576">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1148" y="219" width="584" height="602" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1603191809576" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1603622035931">
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1603872243174">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1603622035931" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1603872243174" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -416,8 +419,23 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/1242.암호코드스캔3.py</url>
-          <line>79</line>
-          <option name="timeStamp" value="43" />
+          <line>84</line>
+          <option name="timeStamp" value="47" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/1028수업시간연습문제2baby-gin.py</url>
+          <line>52</line>
+          <option name="timeStamp" value="48" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/5203.베이비진게임.py</url>
+          <line>39</line>
+          <option name="timeStamp" value="50" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/SWEA_5203_베이비진게임_박봉현.py</url>
+          <line>24</line>
+          <option name="timeStamp" value="51" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>

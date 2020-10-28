@@ -1,5 +1,5 @@
-a = '1010'
-b = '212'
-a = list(a)
-a[1] = '3'
-print(a)
+from itertools import permutations
+a = [3, 5, 1, 2, 6]
+
+b = list(permutations(a, 3))
+print(b)
