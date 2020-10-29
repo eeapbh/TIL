@@ -27,12 +27,12 @@ for tc in range(1, t+1):
         p1 = a[0:i]
         p2 = b[0:i]
         rs[0] = (check(p1))
-        rs[1] = (check(p2))
         if rs.count(1) == 1:
             print('#{} {}'.format(tc, rs.index(1)+1))
             break
-        elif rs.count(1) == 2:
-            print('#{} {}'.format(tc, 0))
+        rs[1] = (check(p2))
+        if rs.count(1) == 1:
+            print('#{} {}'.format(tc, rs.index(1)+1))
             break
 
         else:

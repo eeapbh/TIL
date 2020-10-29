@@ -1,6 +1,6 @@
-import sys
-sys.stdin = open('input.txt', 'r')
-
+import sys, time
+sys.stdin = open('2.txt', 'r')
+start = time.time()
 P = {(3, 2, 1, 1): 0,
      (2, 2, 2, 1): 1,
      (2, 1, 2, 2): 2,
@@ -38,26 +38,40 @@ def check(i, Bcode):
 
 t = int(input())
 for tc in range(1, t+1):
-    n, m = map(int, input().split())
-    remember = []  # 16진수 가져오는거 기억할꺼 봤던코드면 바로넘기기위해
-    numList = []   # 코드8개짜리구한거 저장해놓는용도
-    for i in range(n):
-        line = input()
-        for j in line:
-            if line == '0' * m or line in remember: # 0만있는줄이거나 봤던코드면 넘김
-                continue
-            if j != 0:  # 0 아닌 다른거 나오는거있으면
-                number16 = line[:]
-                remember.append(number16)   # 저장하고
-                binay_num = bin(int(number16, 16))[2:]
-                temp = (len(str(number16)) - 2) * 4 - len(binay_num)
-                Bcode = '0' * temp + binay_num
+    n, m = map(int, sys.stdin.readline().split())
 
-                for i in range(len(Bcode)-1, -1, -1):   # 뒤에서부터 돌다가 1찾으면 함수시작함
-                    if Bcode[i] == '1':
-                        startIdx = i
-                        break
-                check(startIdx, Bcode)
+    # remember = []  # 16진수 가져오는거 기억할꺼 봤던코드면 바로넘기기위해
+    numList = []   # 코드8개짜리구한거 저장해놓는용도
+    before = []
+    for i in range(n):
+        line = sys.stdin.readline()
+        if line == before:
+            continue
+        before = line
+        if line == '0'*m:
+            continue
+        for j in line:
+            # if line == '0' * m or line in remember: # 0만있는줄이거나 봤던코드면 넘김
+            #     continue
+            # if j != 0:  # 0 아닌 다른거 나오는거있으면
+                # number16 = line[:]
+                # remember.append(number16)   # 저장하고
+                # binay_num = bin(int(number16, 16))[2:]
+                # temp = (len(str(number16)) - 2) * 4 - len(binay_num)
+                # Bcode = '0' * temp + binay_num
+            Bcode = int(line, 16)
+            Bcode = format(Bcode, 'b')
+            if len(Bcode) != int(m) * 4:
+                Bcode = '0' * (int(m) * 4 - len(Bcode)) + Bcode
+
+
+            for i in range(len(Bcode)-1, -1, -1):   # 뒤에서부터 돌다가 1찾으면 함수시작함
+                if Bcode[i] == '1':
+                    startIdx = i
+                    break
+
+            check(startIdx, Bcode)
+
     # print(numList)
     ans = 0
     numList = list(reversed(numList))   # 함수다돌고나면 숫자들 쭉쌓여있음 길이는 8의배수일꺼임
@@ -80,3 +94,5 @@ for tc in range(1, t+1):
         if (odd*3 + even + pwCheck[7]) % 10 == 0:
             ans += sum(pwCheck)
     print('#{} {}'.format(tc, ans))
+
+print(time.time() - start)
