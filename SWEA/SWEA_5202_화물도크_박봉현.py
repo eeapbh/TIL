@@ -12,5 +12,9 @@ for tc in range(1, t+1):
     finish = 0
     while li:
         start, end = li.pop(0)
-        if start >= work
+        if start >= finish:
+            result += 1
+            finish = end
+    print('#{} {}'.format(tc, result))
+
 
