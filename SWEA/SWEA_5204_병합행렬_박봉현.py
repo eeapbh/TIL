@@ -1,40 +1,46 @@
 import sys
 sys.stdin = open('input.txt', 'r')
 
-def merge_sort(arr):
-    if len(arr) == 1:
-        return arr
-    m = len(arr)//2
-    left = merge_sort(arr[:m])
-    right = merge_sort(arr[m:])
-    return merge(left, right)
-
 def merge(left, right):
-    global cnt
-    result = []
+    global ans
+    result = [0]*(len(left) + len(right))
+    idx = li = ri = 0
     if left[-1] > right[-1]:
-        cnt += 1
-    while len(left) > 0 or len(right) > 0:
-        if len(left) > 0 and len(right) > 0:
-            if left[0] <= right[0]:
-                result.append(left.pop(0))
-            else:
-                result.append(right.pop(0))
-        elif len(left) > 0:
-            result.append(left.pop(0))
-        elif len(right) > 0:
-            result.append(right.pop(0))
-    return result
+        ans += 1
+    while len(left) > li and len(right) > ri:
+        if left[li] <= right[ri]:
+            result[idx] = left[li]
+            li += 1
+            idx += 1
+        else:
+            result[idx] = right[ri]
+            ri += 1
+            idx += 1
+    while len(left) > li:
+        result[idx] = left[li]
+        li += 1
+        idx += 1
+    while len(right) > ri:
+        result[idx] = right[ri]
+        li += 1
+        idx += 1
 
+def merge_sort(arr):
+    if len(arr)<=1:
+        return arr
+    mid = len(arr)//2
+    left = merge_sort(arr[:mid])
+    right = merge_sort(arr[mid:])
 
+    return merge(left, right)
 
 t = int(input())
 for tc in range(1, t+1):
     n = int(input())
-    arr = list(map(int, input().split()))
-    cnt = 0
+    nums = list(map(int, input().split()))
+    ans = 0
 
-    print('#{} {} {}'.format(tc, merge_sort(arr)[n//2], cnt))
+
 
 
 
