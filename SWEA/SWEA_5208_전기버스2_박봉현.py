@@ -9,12 +9,11 @@ def go(idx):
         if arr[i] > big:
             big = arr[i]
             next = i
-    print(next, arr[next])
-    d += arr[idx]
+
     d += big
-    # next = idx + max(tmp)
     cnt += 1
-    if d > n:
+    # print(next, arr[next], d)
+    if d > n-1:
         return
     return go(next)
 
@@ -24,9 +23,8 @@ for tc in range(1, t+1):
     n = info[0]
     arr = info[1:]
     arr.append(0)
-    print(arr)
     cnt = 0
-    d = 0
+    d = arr[0]
     go(0)
     print('#{} {}'.format(tc, cnt))
 
