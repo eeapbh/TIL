@@ -15,12 +15,19 @@ oddidx = -1
 for i in range(26):
     if check[i] % 2 != 0:
         cnt += 1
-        for _ in range(1+check[i]//2):
-            oddidx += 1
-            ans[n//2 + oddidx] = ans[n//2-oddidx] = chr(65+i)
         if cnt > 1:
             rs = "I'm Sorry Hansoo"
             break
+        oddidx += 1
+        for _ in range(1+check[i]//2):
+
+            if oddidx == 0:
+                oddidx += 1
+                ans[n//2] = chr(65+i)
+            else:
+                ans[idx + oddidx] = ans[n-idx-oddidx-1] = chr(65+i)
+                idx += 1
+
 
     elif check[i] % 2 == 0 and check[i] > 0:
 
