@@ -7,7 +7,6 @@ def make_set(x):
 def find_set(x):
     if p[x] != x:
         p[x] = find_set(p[x])
-
     return p[x]
 
 
@@ -19,7 +18,6 @@ t = int(input())
 for tc in range(1, t+1):
     v, e = map(int, input().split())
     arr = [[]*(v+1) for _ in range(v+1)]
-
     edges = [list(map(int, input().split())) for _ in range(e)]
     edges = sorted(edges, key=lambda x:x[2])
     p = [-1]*(v+1)
