@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="app">
+        <select v-model="selected">
+            <option v-for='option in options' v-bind:value = 'option.text'>
+                {{option.text}}
+            </option>
+        </select>
+        <input type = 'text' v-model='newtodo' v-on:keyup.enter="add">
+        <button v-on:click="add">+</button>
+        <br>
+        
+        <li v-for= "todo in todos" v-if="todo.completed === true">
+            <del>
+                <input type="checkbox" id="checkbox" v-model="todo.completed"> {{ todo.title }}
+            </del>
+        </li>
+        <li v-else>
+            <input type="checkbox" id="checkbox" v-model="todo.completed"> {{ todo.title }}
+        </li>
+            
+        <br>
+        <button v-on:click="alldelete">완료된거 다 지우기</button>
+    </div>
+    
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <script>
+        const app = new Vue({
+            el: '#app',
+            data: {
+                selected: '전체',
+                newtodo: '',
+                options: [
+                    {text: '전체', value: false},
+                    {text: '진행중', value: false},
+                    {text: '완료', value: true}
+                ],
+                todos: [
+                    { title: 'todo1', completed: true },
+                    { title: 'todo2', completed: true },
+                    { title: 'todo3', completed: true },
+                ],
+                
+            },
+            methods: {
+                add: function () {
+                    this.todos.push({
+                        id : Date.now(),
+                        title: this.newtodo,
+                        completed: false,
+                    })
+                    this.newtodo = ''
+                },
+                alldelete: function() {
+                    this.todos = this.todos.filter(function (todo) {
+                        return todo.completed === false
+                    })
+                }
+            }
+            
+        })
+    </script>
+</body>
+
+</html>
