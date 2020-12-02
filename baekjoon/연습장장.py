@@ -1,4 +1,4 @@
-a = ['1', '2']
-b = ['3', '3', '1', '2', '3']
-if ''.join(a) in ''.join(b):
-    print(1)
+arr = [[1, 2, 3], [4, 5, 6]]
+arr2 = list(zip(*arr))
+print(arr2)
+print(sum(arr2[1]))
