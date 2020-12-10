@@ -20,14 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dbf64a86-72d6-4c0b-94fc-bafc1a91ff0d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/1868.파핑파핑지뢰찾기.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1873.상호의배틀필드.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1949.등산로조성.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2115.벌꿀채취.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/5215.햄버거다이어트.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/6109.추억의2048게임.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/5658.보물상자비밀번호.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/1028수업시간연습문제3(비트).py" beforeDir="false" afterPath="$PROJECT_DIR$/1028수업시간연습문제3(비트).py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/input.txt" beforeDir="false" afterPath="$PROJECT_DIR$/input.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/연습.py" beforeDir="false" afterPath="$PROJECT_DIR$/연습.py" afterDir="false" />
     </list>
@@ -105,27 +99,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="1868.파핑파핑지뢰찾기" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="SWEA" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/1868.파핑파핑지뢰찾기.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="2115.벌꿀채취" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="SWEA" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -139,6 +112,27 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/2115.벌꿀채취.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="5658.보물상자비밀번호" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="SWEA" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/5658.보물상자비밀번호.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -213,10 +207,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Python.연습" />
+        <item itemvalue="Python.5658.보물상자비밀번호" />
         <item itemvalue="Python.2115.벌꿀채취" />
         <item itemvalue="Python.6109.추억의2048게임" />
         <item itemvalue="Python.1028수업시간연습문제3(비트)" />
-        <item itemvalue="Python.1868.파핑파핑지뢰찾기" />
       </list>
     </recent_temporary>
   </component>
@@ -248,42 +242,42 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1286" y="272" key="#xdebugger.XInspectDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1604661488522" />
-    <state width="938" height="300" key="GridCell.Tab.0.bottom" timestamp="1607252051621">
+    <state width="938" height="277" key="GridCell.Tab.0.bottom" timestamp="1607412255127">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1515" height="217" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1599408515361" />
-    <state width="938" height="300" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1607252051621" />
-    <state width="938" height="300" key="GridCell.Tab.0.center" timestamp="1607252051620">
+    <state width="938" height="277" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1607412255127" />
+    <state width="938" height="277" key="GridCell.Tab.0.center" timestamp="1607412255127">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1515" height="217" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1599408515360" />
-    <state width="938" height="300" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1607252051620" />
-    <state width="938" height="300" key="GridCell.Tab.0.left" timestamp="1607252051620">
+    <state width="938" height="277" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1607412255127" />
+    <state width="938" height="277" key="GridCell.Tab.0.left" timestamp="1607412255127">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1515" height="217" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1599408515360" />
-    <state width="938" height="300" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1607252051620" />
-    <state width="938" height="300" key="GridCell.Tab.0.right" timestamp="1607252051620">
+    <state width="938" height="277" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1607412255127" />
+    <state width="938" height="277" key="GridCell.Tab.0.right" timestamp="1607412255127">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1515" height="217" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1599408515361" />
-    <state width="938" height="300" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1607252051620" />
-    <state width="938" height="275" key="GridCell.Tab.1.bottom" timestamp="1607250302719">
+    <state width="938" height="277" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1607412255127" />
+    <state width="938" height="277" key="GridCell.Tab.1.bottom" timestamp="1607412255128">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="938" height="275" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1607250302719" />
-    <state width="938" height="275" key="GridCell.Tab.1.center" timestamp="1607250302719">
+    <state width="938" height="277" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1607412255128" />
+    <state width="938" height="277" key="GridCell.Tab.1.center" timestamp="1607412255127">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="938" height="275" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1607250302719" />
-    <state width="938" height="275" key="GridCell.Tab.1.left" timestamp="1607250302719">
+    <state width="938" height="277" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1607412255127" />
+    <state width="938" height="277" key="GridCell.Tab.1.left" timestamp="1607412255127">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="938" height="275" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1607250302719" />
-    <state width="938" height="275" key="GridCell.Tab.1.right" timestamp="1607250302719">
+    <state width="938" height="277" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1607412255127" />
+    <state width="938" height="277" key="GridCell.Tab.1.right" timestamp="1607412255128">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="938" height="275" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1607250302719" />
+    <state width="938" height="277" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1607412255128" />
     <state x="81" y="138" width="776" height="768" key="dock-window-1" timestamp="1604329118057">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -465,6 +459,26 @@
           <line>17</line>
           <option name="timeStamp" value="87" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/5658.보물상자비밀번호.py</url>
+          <line>2</line>
+          <option name="timeStamp" value="90" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/연습.py</url>
+          <line>6</line>
+          <option name="timeStamp" value="91" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/연습.py</url>
+          <line>3</line>
+          <option name="timeStamp" value="92" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/연습.py</url>
+          <line>13</line>
+          <option name="timeStamp" value="93" />
+        </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
         <breakpoint type="python-exception">
@@ -474,17 +488,5 @@
         </breakpoint>
       </default-breakpoints>
     </breakpoint-manager>
-    <watches-manager>
-      <configuration name="PythonConfigurationType">
-        <watch expression="arr" />
-        <watch expression="cost" language="Python" />
-        <watch expression="order" language="Python" />
-        <watch expression="ans" language="Python" />
-        <watch expression="arr" />
-        <watch expression="dist" language="Python" />
-        <watch expression="sx" language="Python" />
-        <watch expression="sy" language="Python" />
-      </configuration>
-    </watches-manager>
   </component>
 </project>
