@@ -1,3 +1,3 @@
-a = 'abc'
-a = a + 'd'
+a = {}
+a['a'] = 1
 print(a)
