@@ -1,9 +1,8 @@
 import sys
 sys.stdin = open('input.txt')
 
-dic = {}
-
 while 1:
+    dic = {}
     line = input().split()
     line.sort()
     if line[0] == 'END':
@@ -14,5 +13,9 @@ while 1:
             dic[i] = 1
         else:
             dic[i] += 1
-    print(dic)
+    for k, v in dic.items():
+        print('{} : {}'.format(k, v))
+
+
+
 
